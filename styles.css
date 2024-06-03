@@ -298,6 +298,7 @@ body {
 
 .project img {
   border-radius: 12px;
+  width: 200px;
 
   border-bottom-left-radius: 0;
   border-bottom-right-radius: 0;
