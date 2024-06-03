@@ -71,7 +71,6 @@ body {
   }
 }
 
-
 /* -------------- */
 /* Contact info styles */
 /* -------------- */
@@ -275,4 +274,37 @@ body {
   color: var(--secondary-text-color);
 }
 
+.involvement {
+  text-align: center;
+}
 
+.personal-projects {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  column-gap: 50px;
+  align-items: top;
+}
+
+.project {
+  border-radius: 12px;
+}
+.description-box {
+  box-shadow: 0 20px 30px 0 rgba(0, 0, 0, 0.07);
+  border-radius: 12px;
+  width: 200px;
+  padding: 10px;
+  color: var(--secondary-text-color);
+}
+
+.project img {
+  border-radius: 12px;
+
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+}
+
+h3 {
+  color: var(--secondary-text-color);
+  margin-bottom: 24px;
+  font-size: 18px;
+}
